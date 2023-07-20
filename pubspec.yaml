@@ -10,7 +10,11 @@ environment:
 dependencies:
   flutter:
     sdk: flutter
-  bs_flutter_utils: ^1.0.2
+  bs_flutter_utils:
+    git:
+      url: https://github.com/iamriajul/bs_flutter_utils
+      ref: main
+      version: ^1.0.2
 
 dev_dependencies:
   flutter_test:

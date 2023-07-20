@@ -21,26 +21,26 @@ packages:
     dependency: "direct main"
     description:
       name: bs_flutter_buttons
-      sha256: f09f0b64f80306288c41e766732aac00ef54c068105d6815f9f789cee5ff7d35
+      sha256: ad5263a8079939a69cb017b7f8868f28db498d52cc8002f66d8d68fb0d0e4055
       url: "https://pub.dev"
     source: hosted
-    version: "1.0.1"
+    version: "1.2.8"
   bs_flutter_modal:
     dependency: "direct main"
     description:
       name: bs_flutter_modal
-      sha256: "7cb7bca2a218a4f7bfff9bfead8f4937defcd5ed93be8b7685c5cf7e8266975e"
+      sha256: a29ee8c83df35e6c861b58f1f175de6118408583357cdb9bdc5597565b49a612
       url: "https://pub.dev"
     source: hosted
-    version: "1.0.1"
+    version: "1.0.6"
   bs_flutter_responsive:
     dependency: "direct main"
     description:
       name: bs_flutter_responsive
-      sha256: "359cfa8ac48ddf3ce2a31b972c262839f6cf80c67adab9933c3323d125804d5a"
+      sha256: "24de525e91d06cad150a7b1f73f1012de8fe0382c35b9f651d4ff7b10c675f04"
       url: "https://pub.dev"
     source: hosted
-    version: "1.0.0"
+    version: "1.0.1"
   bs_flutter_selectbox:
     dependency: "direct main"
     description:
@@ -51,10 +51,11 @@ packages:
   bs_flutter_utils:
     dependency: "direct main"
     description:
-      name: bs_flutter_utils
-      sha256: "4d405d1a2ac8287dacb51b464ca2496a785334c75a49263e914038d600ed25ff"
-      url: "https://pub.dev"
-    source: hosted
+      path: "."
+      ref: main
+      resolved-ref: "73f7cd2022cc4bc4fff915b94150783eb8787602"
+      url: "https://github.com/iamriajul/bs_flutter_utils"
+    source: git
     version: "1.0.2"
   characters:
     dependency: transitive

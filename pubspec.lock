@@ -20,10 +20,11 @@ packages:
   bs_flutter_utils:
     dependency: "direct main"
     description:
-      name: bs_flutter_utils
-      sha256: "4d405d1a2ac8287dacb51b464ca2496a785334c75a49263e914038d600ed25ff"
-      url: "https://pub.dev"
-    source: hosted
+      path: "."
+      ref: main
+      resolved-ref: "73f7cd2022cc4bc4fff915b94150783eb8787602"
+      url: "https://github.com/iamriajul/bs_flutter_utils"
+    source: git
     version: "1.0.2"
   characters:
     dependency: transitive
@@ -64,11 +65,6 @@ packages:
     version: "0.0.0"
   flutter_test:
     dependency: "direct dev"
-    description: flutter
-    source: sdk
-    version: "0.0.0"
-  flutter_web_plugins:
-    dependency: transitive
     description: flutter
     source: sdk
     version: "0.0.0"
